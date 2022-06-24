@@ -1,7 +1,7 @@
 <?php
-$title = "Home";
+$title = "Checkout";
 $content = '
-        <div style="text-align: center; onload="loadData();">
+        <div style="text-align: center;">
             <h2>Summary of Your Order </h2>
             <label for="name"><b>Your Name:</b></label>
             <p id="name"></p><br/>
@@ -9,7 +9,7 @@ $content = '
             <p id="Address"></p><br/>
 
             <div id="result"></div>
-            <h3>Select the your products</Select></h3>
+            <h3>Your selected products</Select></h3>
             <table style="margin-left:auto;margin-right:auto;" cellpadding="10">
                 <tr>
                     <th>Genres</th>
@@ -86,7 +86,7 @@ $content = '
                     </tr>
                 </tr>
             </table>
-            <button onclick="loadData()">Confirm & Pay</button>
+            <button onclick="loadData()">Refresh Data</button>
             <button onclick="confirm()">Confirm & Pay</button>
         </div>
     </div>
