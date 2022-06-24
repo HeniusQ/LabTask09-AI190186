@@ -7,9 +7,7 @@ $content = '
             <p id="name"></p><br/>
             <label for="Address"><b>Your Address:</b></label>
             <p id="Address"></p><br/>
-         </div>
-         
-            <div id="result"></div>
+            
             <h3>Your selected products</Select></h3>
             <table style="margin-left:auto;margin-right:auto;" cellpadding="10">
                 <tr>
