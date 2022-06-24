@@ -22,7 +22,7 @@
             var q4 = document.getElementById("q4");
             localStorage.setItem('q4', q4.options[q4.selectedIndex].text);
 
-            window.location.href="Summary.html";
+            window.location.href="summary.php";
         }
 
         function loadData(){
@@ -74,7 +74,7 @@
             document.getElementById("Payment").innerHTML = ("RM "+ payment);
         }
         function confirm(){
-            alert("Thank you, Your Payment is successful")
+            alert("Thank you, Your Payment is successful");
         }
         
     </script>
