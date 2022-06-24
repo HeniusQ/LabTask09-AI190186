@@ -1,5 +1,5 @@
 <?php
-$title = "Home";
+$title = "Checkout of Products";
 $content = '
 <div onload="loadData();">
         <div style="text-align: center;">
@@ -14,7 +14,7 @@ $content = '
             <table style="margin-left:auto;margin-right:auto;" cellpadding="10">
                 <tr>
                     <th>Genres</th>
-                    <th>Book's Name</th>
+                    <th>Book Name</th>
                     <th>Price</th>
                     <th>Quantity</th>
                     <th>Total</th>
