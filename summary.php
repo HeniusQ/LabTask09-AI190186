@@ -1,8 +1,7 @@
 <?php
-$title = "Checkout of Products";
+$title = "Home";
 $content = '
-<div onload="loadData();">
-        <div style="text-align: center;">
+        <div style="text-align: center; onload="loadData();">
             <h2>Summary of Your Order </h2>
             <label for="name"><b>Your Name:</b></label>
             <p id="name"></p><br/>
@@ -90,7 +89,6 @@ $content = '
             <button onclick="confirm()">Confirm & Pay</button>
         </div>
     </div>
-</div>
 ';
 
 include 'Template.php';
