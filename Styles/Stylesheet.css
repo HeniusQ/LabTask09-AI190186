@@ -67,6 +67,7 @@ footer
     color: #000000;
     text-shadow: 0.1em 0.1em #333;
     background-image: url(../Images/bar_background.png);
+    background-color: grey;
 }
 
 #nav
