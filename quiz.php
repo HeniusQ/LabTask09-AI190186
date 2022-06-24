@@ -1,5 +1,5 @@
 <?php
-$title = "Home";
+$title = "Quiz";
 $content = '
 <div id="quizWrap"></div>
 ';
