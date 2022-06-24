@@ -87,6 +87,7 @@
                     <li><a href="home.php">Home</a></li>
                     <li><a href="about-me.php">About Me</a></li>
                     <li><a href="product.php">Product</a></li>
+                    <li><a href="summary.php">Checkout Products</a></li>
                     <li><a href="quiz.php">Quiz</a></li>
                 </ul>
             </nav>
