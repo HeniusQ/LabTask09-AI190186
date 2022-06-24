@@ -96,9 +96,6 @@
                 <?php echo $content; ?>
             </div>
             
-            <div id="sidebar">
-                
-            </div>
             
             <footer>
                 <p>Lab Task 09 - AI190186</p>
