@@ -69,7 +69,7 @@ $content = '
                 </tr>
             </table>
     <input type="submit" value="submit"><br/>
-    <a href="Summary.html">Check out Summary -></a>
+    <a href="summary.php">Check out Summary -></a>
     </form>';
 
 include 'Template.php';
