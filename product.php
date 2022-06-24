@@ -1,5 +1,5 @@
 <?php
-$title = "Home";
+$title = "Products";
 $content = '
 <form name="myform" onsubmit="passdata()" style="text-align: center;">
         <h2>Order Your Books here</h2>
