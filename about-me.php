@@ -1,5 +1,5 @@
 <?php
-$title = "Home";
+$title = "About Me";
 $content = '
 <table style="border: 6px solid black;margin-left:auto;margin-right:auto;">
     <tr>
