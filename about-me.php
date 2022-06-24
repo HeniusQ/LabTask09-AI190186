@@ -1,7 +1,7 @@
 <?php
 $title = "Home";
 $content = '
-<table style="border: 6px solid black;margin-left:auto;margin-right:auto;margin-top:9em;">
+<table style="border: 6px solid black;margin-left:auto;margin-right:auto;">
     <tr>
         <th>Name</th>
         <td>Chan Thai Hong</td>
