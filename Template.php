@@ -79,7 +79,7 @@
         
     </script>
     </head>
-    <body onload="loadData();>
+    <body>
         <div id="wrapper">
             
             <nav id="navigation">
