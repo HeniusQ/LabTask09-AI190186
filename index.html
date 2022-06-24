@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Member’s Registration</title>
+    <style>
+        * {box-sizing: border-box;}
+        h2 {font-family: Arial; color: blue;}
+        .container {padding: 6px;background-color: white;}
+        input[type=text], input[type=password] {
+            width: 50%;
+            padding: 9px;
+            margin: 5px 0 10px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;}
+    </style>
+    <script type="text/JavaScript">
+        alert("Welcome To Become Our Member")
+        function validateForm() {
+            var x = document.forms["myForm"]["FirstName"].value;
+            var y = document.forms["myForm"]["LastName"].value;
+            if (x == "" && y == "") {
+                alert("Register unsuccessful! Name must be filled out!");
+                }
+            else{
+                successful();
+            }
+        }
+        function successful() {
+            alert('Congrat, you were register successful!');
+            window.location.href="home.php";
+        }
+    </script>
+</head>
+<body>
+    <form action="home.php" name="myForm">
+        <div class="container">
+          <h1>Register Account</h1>
+          <p>Already have an account? <a href="#">Login Page</a>.</p>
+          <p>Please fill in this form to create an account.</p>
+          <h2>Your Personal Details</h2>
+
+          <label for="FirstName"><b>First Name:</b></label>
+          <input type="text" placeholder="Enter Your First Name" name="FirstName" id="FirstName" required><br/>
+      
+          <label for="LastName"><b>Last Name:</b></label>
+          <input type="text" placeholder="Enter Your Last Name" name="LastName" id="LastName" required><br/>
+      
+          <label for="Email"><b>E-mail:</b></label>
+          <input type="text" placeholder="Enter Your E-mail" name="Email" id="Email" required><br/>
+
+          <label for="Telephone"><b>Telephone:</b></label>
+          <input type="text" placeholder="Enter Your Telephone" name="Telephone" id="Telephone" required><br/>
+
+          <h2>Your Address</h2>
+
+          <label for="Address1"><b>Address line 1:</b></label>
+          <input type="text" placeholder="Enter Your Address" name="Address1" id="Address1" required><br/>
+      
+          <label for="Address2"><b>Address line 2:</b></label>
+          <input type="text" placeholder="Enter Your Address" name="Address2" id="Address2" required><br/>
+      
+          <label for="City"><b>City:</b></label>
+          <input type="text" placeholder="Enter Your City" name="City" id="City" required><br/>
+
+          <label for="PostCode"><b>Post Code:</b></label>
+          <input type="text" placeholder="Enter Your Post Code" name="PostCode" id="PostCode" required><br/>
+          
+          <label for="Country"><b>Country:</b></label>
+          <input type="text" placeholder="Enter Your Country" name="Country" id="Country" required><br/>
+
+          <button type="submit" onclick="validateForm()">Register</button>
+        </div>
+    </form>
+</p> 
+</body>
+</html>
