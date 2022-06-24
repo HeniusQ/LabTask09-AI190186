@@ -86,6 +86,7 @@ $content = '
                     </tr>
                 </tr>
             </table>
+            <button onclick="loadData()">Confirm & Pay</button>
             <button onclick="confirm()">Confirm & Pay</button>
         </div>
     </div>
