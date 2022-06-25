@@ -19,7 +19,7 @@ var quiz = {
       "Dial-home support",
       "Rapid elasticity"
     ],
-    a : 1
+    a : 2
   },
   {
     q : "Which of the following isn´t an advantage of cloud?",
@@ -39,7 +39,7 @@ var quiz = {
       "Amazon EC2",
       "Joyent"
     ],
-    a : 3
+    a : 2
   },
   {
     q : "Amazon Web Services is which type of cloud computing distribution model?",
@@ -49,7 +49,7 @@ var quiz = {
       "Infrastructure as a Service",
       ""
     ],
-    a : 1
+    a : 2
   }
   ],
 
